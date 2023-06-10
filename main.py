@@ -78,7 +78,7 @@ def verify_f():
     n8=t8.get(0.0 , 3.0)
     n9=t9.get(0.0 , 3.0)
     if n1=='\n' or n2=='\n' or n3=='\n' or n4=='\n' or n5=='\n' or n6=='\n' or n7=='\n' or n8=='\n' or n9=='\n':
-        showwarning('Ошибка' , 'Пожалуйста, введите число в текстовые поля')
+        showwarning('Ошибка' , 'Пожалуйста, введите число в ячейки')
     else:
         s1=int(n1)+int(n2)+int(n3)
         s2=int(n4)+int(n5)+int(n6)
@@ -86,7 +86,7 @@ def verify_f():
         s4=int(n1)+int(n5)+int(n9)
         s5=int(n3)+int(n5)+int(n7)
         if int(s1) and int(s2) and int(s3) and int(s4) and int(s5) == int(num):
-            showinfo('Поздравляем' , 'Вы успешно решили магический квадрат')
+            showinfo('Поздравляем!' , 'Вы успешно решили магический квадрат!')
         else:
             showwarning('Ошибка' , 'Пожалуйста, убедитесь, что сумма строк, столбцов и диагоналей совпадает с указанным выше числом.')
 bvrfi=Button(root , text='Вполнить' , font=('Fira Sans' , 12) , bg='blue' , fg='white' , width=8 , command=verify_f)
