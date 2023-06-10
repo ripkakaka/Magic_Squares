@@ -17,9 +17,9 @@ b1=Button(root , text='Играть' , font=('Fira Sans' , 12) , bg='blue' , fg=
 canvas.create_window(150 , 100 , window=b1)
 b2=Button(root , text='Выйти' , font=('Fira Sans' , 12) , bg='red' , fg='white' , width=6)
 canvas.create_window(150 , 150, window=b2)
-b3=Button(root , text='Легкий' , font=('Fira Sans' , 12) , bg='blue' , fg='white')
-b4=Button(root , text='Средний' , font=('Fira Sans' , 12) , bg='blue' , fg='white')
-b5=Button(root , text='Сложный' , font=('Fira Sans' , 12) , bg='blue' , fg='white')
+b3=Button(root , text='Легкий' , font=('Fira Sans' , 12) , bg='green' , fg='white')
+b4=Button(root , text='Средний' , font=('Fira Sans' , 12) , bg='purple' , fg='white')
+b5=Button(root , text='Сложный' , font=('Fira Sans' , 12) , bg='red' , fg='white')
 #Text
 t1=Text(root , width=3 , height=1)
 t2=Text(root , width=3 , height=1)
